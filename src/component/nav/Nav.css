@@ -1,0 +1,45 @@
+.Navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 200px; */
+    /* position: fixed; */
+    top: 0px;
+    height: 80px;
+    width: 100vw;
+    background-color: rgba(21, 40, 40, 0.7);
+    color: antiquewhite;
+    font-size: large;
+    
+}
+.NavList {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+.logo{
+    font-size: 2rem;
+}
+.NavLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.NavLinks a:hover{
+    color: darkblue;
+}
+.NavLinks{
+    background-color: rgb(170, 198, 198);
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.NavLinks:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.backgroundImgNav img{
+    height: 580px;
+    width: 1600px;
+}

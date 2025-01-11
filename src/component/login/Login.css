@@ -1,0 +1,36 @@
+.LoginPage{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoginInputContainer form{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(217, 157, 78);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 24px;
+}
+.LoginInputContainer button{
+    width: fit-content;
+    padding: 10px 20px ;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(31, 66, 31);
+}
+.LoginInputContainer input{
+    /* height: 50px; */
+    width: 230px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 15px;
+}
